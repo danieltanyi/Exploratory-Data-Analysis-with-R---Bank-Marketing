@@ -1,0 +1,32 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+ **Task**
+
+1.  Explore the data to find how different features (age, job, education, and others) affect the desired outcome (the client subscribed to a term deposit). For this analysis, I will use a marketing KPI called *Conversion Rate*. Conversion rate is the percentage of clients who take the desired action.
+
+2.  Give recommendations for the Bank's marketing strategy and future marketing campaigns.
+
+ **Loading the data and R packages**
+ 
+```{r}
+library(dplyr)
+library(ggplot2)
+data <- read.csv("C:/Users/dtarh/OneDrive/Documents/R-project2-EDA/EDA With R- Bank Marketing Data Set.Rmd", 
+                 header = TRUE, sep = ";")
+
+head(data)
+```
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
